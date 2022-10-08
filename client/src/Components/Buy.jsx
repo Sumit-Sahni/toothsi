@@ -18,7 +18,6 @@ const Buy = ({val}) => {
 
      const  handleToCart =(val)=>{
           dispatch(addToCarrt(val))
-          console.log(val)
      }
 
     
