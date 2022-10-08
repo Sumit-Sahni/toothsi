@@ -77,7 +77,7 @@ const resetHandle = ()=>{
 
                           <div className='relative'>
                             <div className='w-8 h-8  flex items-center justify-center absolute right-0 top-[-30px] border border-cyan-700 rounded-full'><span className='font-bold'>
-                                 <h1> {JSON.parse(cart).length}</h1>
+                                 <h1> {`${JSON.parse(cart).length}`}</h1>
                               </span></div>
                             <NavLink to="/cart"><button className='mx-4 px-4 py-2 text-white bg-blue-500'>Add to Cart</button></NavLink>
                           </div>
