@@ -27,23 +27,23 @@ const Buy = ({val}) => {
     <div className='w-80  h-full  flex  flex-col  items-center justify-center p-2  self-start cursor-pointer '>
     <div className='  w-64 self-end flex justify-between items-center'>
        <div  className="w-12  " >
-          <input type="text" placeholder='Qty' value={quantity} onChange={(e)=> setQuantity(e.target.value)} className=" bg-slate-200 w-12 text-center"/>
+          {/* <input type="text" placeholder='Qty' value={quantity} onChange={(e)=> setQuantity(e.target.value)} className=" bg-slate-200 w-12 text-center"/> */}
        </div>
-       <div className=' bg-black text-white w-24 flex items-center justify-center'>
+       <div className=' bg-blue-900 text-white w-24 flex items-center justify-center'>
         <button onClick={() => handleToCart(val)}>
          <AiOutlineShoppingCart size={30}/>
         </button>
            
        </div>
        <div>
-       <input
+       {/* <input
           type="checkbox"
           value={select}
           checked={isChecked}
           onChange={handleOnChange}
           id={val.id}
         />
-       
+        */}
        </div>
     </div>
 </div>

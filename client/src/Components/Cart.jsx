@@ -1,7 +1,7 @@
 import React from 'react'
 import { NavLink} from "react-router-dom";
 import { useEffect} from "react";
-import {TiDeleteOutline} from 'react-icons/ti';
+import {MdDeleteOutline} from 'react-icons/md';
 import {GrFormSubtract} from 'react-icons/gr';
 import {IoIosAdd} from 'react-icons/io';
 import {IoArrowBackCircleOutline} from 'react-icons/io5';
@@ -66,7 +66,7 @@ const Cart = () => {
                                         <div className='lg:w-64  lg:text-2xl flex-row '>
                                          <div className='w-60 flex flex-row items-center justify-between '>
                                           <div className='w-24 text-red-500 cursor-pointer ' >
-                                               <TiDeleteOutline onClick={()=> hadleDelete(item)}></TiDeleteOutline>   
+                                               <MdDeleteOutline onClick={()=> hadleDelete(item)}></MdDeleteOutline>   
                                           </div>
                                                 
                                                 <div className='w-24 px-2'>
