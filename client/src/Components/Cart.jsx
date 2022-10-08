@@ -66,7 +66,7 @@ const Cart = () => {
                                         <div className='lg:w-64  lg:text-2xl flex-row '>
                                          <div className='w-60 flex flex-row items-center justify-between '>
                                           <div className='w-24 text-red-500 cursor-pointer ' >
-                                               <MdDeleteOutline onClick={()=> hadleDelete(item)}></MdDeleteOutline>   
+                                               <MdDeleteOutline onClick={()=> hadleDelete(item)}/>   
                                           </div>
                                                 
                                                 <div className='w-24 px-2'>
